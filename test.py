@@ -14,7 +14,7 @@ while True:
     if not ret:
         break
     results = model(frame)
-    result = result[0]
+    result = results[0]
     print(result)
     cv2.imshow("Img", frame)
     key = cv2.waitKey(0)
